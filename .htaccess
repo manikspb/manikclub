@@ -1,2 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine On
+
 RewriteCond %{HTTP_HOST} ^manik\.club$ [NC]
 RewriteRule ^(.*)$ https://themanik.club/$1 [R=301,L]
